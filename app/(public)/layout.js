@@ -10,6 +10,8 @@ export const metadata = {
   description: 'منصّة بلس: أحدث الأخبار والتحليلات المعمّقة من ليبيا والعالم، بتغطية حصرية على مدار الساعة.',
 };
 
+export const dynamic = 'force-dynamic';
+
 export default async function RootLayout({ children }) {
   let categories = [];
   try {

@@ -5,6 +5,8 @@ export const metadata = {
   title: 'لوحة التحكم - منصة بلس',
 };
 
+export const dynamic = 'force-dynamic';
+
 export default function AdminLayout({ children }) {
   return (
     <html lang="ar" dir="rtl">
