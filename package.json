@@ -4,9 +4,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev -p 3015",
+    "dev": "next dev -p 3020",
     "build": "next build",
-    "start": "next start -p 3015",
+    "start": "next start -p 3020",
     "lint": "eslint",
     "postinstall": "prisma skills sync || exit 0",
     "contract:emit": "prisma contract emit"
